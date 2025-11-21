@@ -23,7 +23,6 @@ This repo provides:
 
 Participants only need a laptop with a webcam — no installation required.
 
----
 
 ## 🧪 How the Experiment Works
 
@@ -32,8 +31,4 @@ Participants only need a laptop with a webcam — no installation required.
 3. A sequence of stimulus images is shown (randomized).  
 4. WebGazer silently records gaze coordinates over time.  
 5. Data is saved as a CSV file for later analysis.
-
----
-
-## 📁 Repository Structure
 

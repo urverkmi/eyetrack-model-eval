@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gaze Experiment</title>
+
+    <!-- WebGazer -->
+    <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/calibration.css">
+
+    <style>
+        body { margin: 0; overflow: hidden; }
+        #image-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #stimulus { max-width: 90vw; max-height: 90vh; }
+        #download {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+
+<button id="download">Download Data</button>
+
+<div id="image-container">
+    <img id="stimulus">
+</div>
+
+
+<script src="js/calibration.js"></script>
+<script src="js/experiment.js"></script>
+</body>
+</html>
